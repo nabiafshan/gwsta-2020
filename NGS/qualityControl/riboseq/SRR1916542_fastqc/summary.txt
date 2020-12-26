@@ -1,0 +1,11 @@
+PASS	Basic Statistics	SRR1916542.fastq
+PASS	Per base sequence quality	SRR1916542.fastq
+PASS	Per tile sequence quality	SRR1916542.fastq
+PASS	Per sequence quality scores	SRR1916542.fastq
+FAIL	Per base sequence content	SRR1916542.fastq
+FAIL	Per sequence GC content	SRR1916542.fastq
+PASS	Per base N content	SRR1916542.fastq
+PASS	Sequence Length Distribution	SRR1916542.fastq
+FAIL	Sequence Duplication Levels	SRR1916542.fastq
+FAIL	Overrepresented sequences	SRR1916542.fastq
+FAIL	Adapter Content	SRR1916542.fastq

@@ -1,0 +1,29 @@
+Train Confusion Matrix: 
+[[18418   954]
+ [ 1293 25353]]
+
+Train Classification report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.95      0.94     19372
+           1       0.96      0.95      0.96     26646
+
+    accuracy                           0.95     46018
+   macro avg       0.95      0.95      0.95     46018
+weighted avg       0.95      0.95      0.95     46018
+
+
+-------------------------------------------------------
+Test Confusion Matrix: 
+[[4545  246]
+ [ 367 6347]]
+
+Test Classification report:
+              precision    recall  f1-score   support
+
+           0       0.93      0.95      0.94      4791
+           1       0.96      0.95      0.95      6714
+
+    accuracy                           0.95     11505
+   macro avg       0.94      0.95      0.95     11505
+weighted avg       0.95      0.95      0.95     11505

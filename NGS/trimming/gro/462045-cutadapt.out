@@ -1,0 +1,1334 @@
+source /etc/profile.d/modules.sh
+Loading cutadapt...
+This is cutadapt 2.5 with Python 3.7.3
+Command line parameters: -a file:adapters.fa -o SRR1916554_trimmed.fastq SRR1916554.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 55735.07 s (551 us/read; 0.11 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:             101,167,017
+Reads with adapters:                21,363,134 (21.1%)
+Reads written (passing filters):   101,167,017 (100.0%)
+
+Total basepairs processed: 5,159,517,867 bp
+Total written (filtered):  5,083,883,972 bp (98.5%)
+
+=== Adapter Reverse_adapter ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAACTCCAGTCACATCACGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 64; Trimmed: 2002971 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-64 bp: 6
+
+Bases preceding removed adapters:
+  A: 37.4%
+  C: 20.7%
+  G: 25.6%
+  T: 16.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1600945	1580734.6	0	1600945
+4	356133	395183.7	0	356133
+5	40146	98795.9	0	40146
+6	2228	24699.0	0	2228
+7	505	6174.7	0	505
+8	117	1543.7	0	117
+9	720	385.9	0	45 675
+10	1537	96.5	1	10 1527
+11	477	24.1	1	1 476
+12	126	6.0	1	0 126
+13	25	1.5	1	0 25
+14	5	0.4	1	0 5
+15	2	0.1	1	0 2
+20	1	0.0	2	0 0 1
+21	1	0.0	2	0 0 1
+22	3	0.0	2	0 0 3
+
+
+=== Adapter TruSeq_Universal_Adapter ===
+
+Sequence: AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCT; Type: regular 3'; Length: 58; Trimmed: 1667187 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-58 bp: 5
+
+Bases preceding removed adapters:
+  A: 30.5%
+  C: 16.0%
+  G: 28.7%
+  T: 24.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1211236	1580734.6	0	1211236
+4	330894	395183.7	0	330894
+5	99819	98795.9	0	99819
+6	18629	24699.0	0	18629
+7	4669	6174.7	0	4669
+8	592	1543.7	0	592
+9	339	385.9	0	33 306
+10	667	96.5	1	13 654
+11	283	24.1	1	5 278
+12	56	6.0	1	1 55
+13	3	1.5	1	0 3
+
+
+=== Adapter pcr_dimer ===
+
+Sequence: AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCTAGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 119; Trimmed: 0 times.
+
+=== Adapter PCR_Primers ===
+
+Sequence: AATGATACGGCGACCACCGAGATCTACACTCTTTCCCTACACGACGCTCTTCCGATCTCAAGCAGAAGACGGCATACGAGCTCTTCCGATCT; Type: regular 3'; Length: 92; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_1_6 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACATCACGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 897990 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-63 bp: 6
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 13.4%
+  G: 47.1%
+  T: 39.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	710794	1580734.6	0	710794
+4	162904	395183.7	0	162904
+5	6781	98795.9	0	6781
+6	13870	24699.0	0	13870
+7	262	6174.7	0	262
+8	63	1543.7	0	63
+9	438	385.9	0	0 438
+10	1659	96.5	1	0 1659
+11	1147	24.1	1	0 1147
+12	63	6.0	1	0 63
+13	5	1.5	1	0 5
+14	3	0.4	1	0 3
+19	1	0.0	1	0 0 1
+
+
+=== Adapter TruSeq_Adapter_Index_2 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGATGTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_3 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACTTAGGCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_4 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACTGACCAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_5 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACACAGTGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_6 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACGCCAATATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_7 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACCAGATCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_8 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACACTTGAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_9 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACGATCAGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_10 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACTAGCTTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_11 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACGGCTACATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_12 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACCTTGTAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_13 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACAGTCAACAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 65; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_14 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACAGTTCCGTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 65; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_15 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACATGTCAGAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 65; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_16 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACCCGTCCCGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 65; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_18_7 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACGTCCGCACATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 65; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_19 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACGTGAAACGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 65; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_20 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACGTGGCCTTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 65; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_21 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACGTTTCGGAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 65; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_22 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACCGTACGTAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 65; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_23 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACGAGTGGATATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 65; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_25 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACACTGATATATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 65; Trimmed: 0 times.
+
+=== Adapter TruSeq_Adapter_Index_27 ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCACATTCCTTTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 65; Trimmed: 0 times.
+
+=== Adapter I5_Nextera_Transposase_1 ===
+
+Sequence: CTGTCTCTTATACACATCTGACGCTGCCGACGA; Type: regular 3'; Length: 33; Trimmed: 2959991 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-33 bp: 3
+
+Bases preceding removed adapters:
+  A: 27.5%
+  C: 18.5%
+  G: 16.7%
+  T: 37.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1976226	1580734.6	0	1976226
+4	843609	395183.7	0	843609
+5	73871	98795.9	0	73871
+6	34838	24699.0	0	34838
+7	16282	6174.7	0	16282
+8	5180	1543.7	0	5180
+9	3622	385.9	0	1388 2234
+10	4211	96.5	1	377 3834
+11	1553	24.1	1	14 1539
+12	533	6.0	1	4 529
+13	44	1.5	1	0 44
+14	17	0.4	1	0 17
+15	2	0.1	1	0 2
+17	3	0.0	1	0 3
+
+
+=== Adapter I7_Nextera_Transposase_1 ===
+
+Sequence: CTGTCTCTTATACACATCTCCGAGCCCACGAGAC; Type: regular 3'; Length: 34; Trimmed: 0 times.
+
+=== Adapter I5_Nextera_Transposase_2 ===
+
+Sequence: CTGTCTCTTATACACATCTCTGATGGCGCGAGGGAGGC; Type: regular 3'; Length: 38; Trimmed: 0 times.
+
+=== Adapter I7_Nextera_Transposase_2 ===
+
+Sequence: CTGTCTCTTATACACATCTCTGAGCGGGCTGGCAAGGC; Type: regular 3'; Length: 38; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]501 ===
+
+Sequence: GACGCTGCCGACGAGCGATCTAGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 1428462 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-51 bp: 5
+
+Bases preceding removed adapters:
+  A: 20.2%
+  C: 12.8%
+  G: 24.6%
+  T: 42.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1056686	1580734.6	0	1056686
+4	350423	395183.7	0	350423
+5	14568	98795.9	0	14568
+6	2528	24699.0	0	2528
+7	1137	6174.7	0	1137
+8	302	1543.7	0	302
+9	1380	385.9	0	39 1341
+10	1210	96.5	1	4 1206
+11	168	24.1	1	0 168
+12	38	6.0	1	0 38
+13	18	1.5	1	0 18
+14	2	0.4	1	0 2
+15	2	0.1	1	0 2
+
+
+=== Adapter I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]502 ===
+
+Sequence: GACGCTGCCGACGAATAGAGAGGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]503 ===
+
+Sequence: GACGCTGCCGACGAAGAGGATAGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]504 ===
+
+Sequence: GACGCTGCCGACGATCTACTCTGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 1 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-51 bp: 5
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 100.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+15	1	0.1	1	0 1
+
+
+=== Adapter I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]505 ===
+
+Sequence: GACGCTGCCGACGACTCCTTACGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 1 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-51 bp: 5
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 100.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+16	1	0.0	1	0 1
+
+
+=== Adapter I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]506 ===
+
+Sequence: GACGCTGCCGACGATATGCAGTGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]507 ===
+
+Sequence: GACGCTGCCGACGATACTCCTTGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]508 ===
+
+Sequence: GACGCTGCCGACGAAGGCTTAGGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_and_Nextera_Enrichment_[N/S/E]517 ===
+
+Sequence: GACGCTGCCGACGATCTTACGCGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_and_Nextera_Enrichment_N701 ===
+
+Sequence: CCGAGCCCACGAGACTAAGGCGAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 2468254 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-47 bp: 4
+
+Bases preceding removed adapters:
+  A: 6.8%
+  C: 38.4%
+  G: 24.2%
+  T: 30.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1288674	1580734.6	0	1288674
+4	953062	395183.7	0	953062
+5	82722	98795.9	0	82722
+6	138662	24699.0	0	138662
+7	2706	6174.7	0	2706
+8	384	1543.7	0	384
+9	602	385.9	0	105 497
+10	1103	96.5	1	18 1085
+11	274	24.1	1	2 272
+12	34	6.0	1	0 34
+13	26	1.5	1	0 26
+14	3	0.4	1	0 3
+15	2	0.1	1	0 2
+
+
+=== Adapter I7_Primer_Nextera_XT_and_Nextera_Enrichment_N702 ===
+
+Sequence: CCGAGCCCACGAGACCGTACTAGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 2 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-47 bp: 4
+
+Bases preceding removed adapters:
+  A: 50.0%
+  C: 50.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+15	1	0.1	1	0 1
+16	1	0.0	1	0 1
+
+
+=== Adapter I7_Primer_Nextera_XT_and_Nextera_Enrichment_N703 ===
+
+Sequence: CCGAGCCCACGAGACAGGCAGAAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_and_Nextera_Enrichment_N704 ===
+
+Sequence: CCGAGCCCACGAGACTCCTGAGCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_and_Nextera_Enrichment_N705 ===
+
+Sequence: CCGAGCCCACGAGACGGACTCCTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_and_Nextera_Enrichment_N706 ===
+
+Sequence: CCGAGCCCACGAGACTAGGCATGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_and_Nextera_Enrichment_N707 ===
+
+Sequence: CCGAGCCCACGAGACCTCTCTACATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_and_Nextera_Enrichment_N708 ===
+
+Sequence: CCGAGCCCACGAGACCAGAGAGGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_and_Nextera_Enrichment_N709 ===
+
+Sequence: CCGAGCCCACGAGACGCTACGCTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_and_Nextera_Enrichment_N710 ===
+
+Sequence: CCGAGCCCACGAGACCGAGGCTGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_and_Nextera_Enrichment_N711 ===
+
+Sequence: CCGAGCCCACGAGACAAGAGGCAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 1 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-47 bp: 4
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+18	1	0.0	1	0 1
+
+
+=== Adapter I7_Primer_Nextera_XT_and_Nextera_Enrichment_N712 ===
+
+Sequence: CCGAGCCCACGAGACGTAGAGGAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S502 ===
+
+Sequence: GACGCTGCCGACGAATAGAGAGGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S503 ===
+
+Sequence: GACGCTGCCGACGAAGAGGATAGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S505 ===
+
+Sequence: GACGCTGCCGACGACTCCTTACGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S506 ===
+
+Sequence: GACGCTGCCGACGATATGCAGTGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S507 ===
+
+Sequence: GACGCTGCCGACGATACTCCTTGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S508 ===
+
+Sequence: GACGCTGCCGACGAAGGCTTAGGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S510 ===
+
+Sequence: GACGCTGCCGACGAATTAGACGGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S511 ===
+
+Sequence: GACGCTGCCGACGACGGAGAGAGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S513 ===
+
+Sequence: GACGCTGCCGACGACTAGTCGAGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S515 ===
+
+Sequence: GACGCTGCCGACGAAGCTAGAAGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S516 ===
+
+Sequence: GACGCTGCCGACGAACTCTAGGGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S517 ===
+
+Sequence: GACGCTGCCGACGATCTTACGCGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S518 ===
+
+Sequence: GACGCTGCCGACGACTTAATAGGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S520 ===
+
+Sequence: GACGCTGCCGACGAATAGCCTTGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S521 ===
+
+Sequence: GACGCTGCCGACGATAAGGCTCGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I5_Primer_Nextera_XT_Index_Kit_v2_S522 ===
+
+Sequence: GACGCTGCCGACGATCGCATAAGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 51; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N701 ===
+
+Sequence: CCGAGCCCACGAGACTAAGGCGAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N702 ===
+
+Sequence: CCGAGCCCACGAGACCGTACTAGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N703 ===
+
+Sequence: CCGAGCCCACGAGACAGGCAGAAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N704 ===
+
+Sequence: CCGAGCCCACGAGACTCCTGAGCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N705 ===
+
+Sequence: CCGAGCCCACGAGACGGACTCCTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N706 ===
+
+Sequence: CCGAGCCCACGAGACTAGGCATGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N707 ===
+
+Sequence: CCGAGCCCACGAGACCTCTCTACATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N710 ===
+
+Sequence: CCGAGCCCACGAGACCGAGGCTGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N711 ===
+
+Sequence: CCGAGCCCACGAGACAAGAGGCAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N712 ===
+
+Sequence: CCGAGCCCACGAGACGTAGAGGAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N714 ===
+
+Sequence: CCGAGCCCACGAGACGCTCATGAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N715 ===
+
+Sequence: CCGAGCCCACGAGACATCTCAGGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N716 ===
+
+Sequence: CCGAGCCCACGAGACACTCGCTAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N718 ===
+
+Sequence: CCGAGCCCACGAGACGGAGCTACATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N719 ===
+
+Sequence: CCGAGCCCACGAGACGCGTAGTAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N720 ===
+
+Sequence: CCGAGCCCACGAGACCGGAGCCTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N721 ===
+
+Sequence: CCGAGCCCACGAGACTACGCTGCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N722 ===
+
+Sequence: CCGAGCCCACGAGACATGCGCAGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N723 ===
+
+Sequence: CCGAGCCCACGAGACTAGCGCTCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N724 ===
+
+Sequence: CCGAGCCCACGAGACACTGAGCGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 7 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-47 bp: 4
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+18	7	0.0	1	0 0 7
+
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N726 ===
+
+Sequence: CCGAGCCCACGAGACCCTAAGACATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 1 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-47 bp: 4
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 100.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+19	1	0.0	1	0 1
+
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N727 ===
+
+Sequence: CCGAGCCCACGAGACCGATCAGTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N728 ===
+
+Sequence: CCGAGCCCACGAGACTGCAGCTAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I7_Primer_Nextera_XT_Index_Kit_v2_N729 ===
+
+Sequence: CCGAGCCCACGAGACTCGACGTCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 47; Trimmed: 0 times.
+
+=== Adapter I5_Adapter_Nextera ===
+
+Sequence: CTGATGGCGCGAGGGAGGCGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 48; Trimmed: 851419 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-48 bp: 4
+
+Bases preceding removed adapters:
+  A: 20.2%
+  C: 13.6%
+  G: 46.6%
+  T: 19.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	760013	395183.7	0	760013
+5	62497	98795.9	0	62497
+6	21291	24699.0	0	21291
+7	4163	6174.7	0	4163
+8	790	1543.7	0	790
+9	1132	385.9	0	30 1102
+10	1304	96.5	1	7 1297
+11	144	24.1	1	0 144
+12	64	6.0	1	0 64
+13	12	1.5	1	0 12
+14	6	0.4	1	0 6
+15	3	0.1	1	0 3
+
+
+=== Adapter I7_Adapter_Nextera_No_Barcode ===
+
+Sequence: CTGAGCGGGCTGGCAAGGCAGACCGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 49; Trimmed: 177687 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4
+
+Bases preceding removed adapters:
+  A: 13.7%
+  C: 25.1%
+  G: 36.0%
+  T: 25.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+5	144376	98795.9	0	144376
+6	21191	24699.0	0	21191
+7	8160	6174.7	0	8160
+8	402	1543.7	0	402
+9	1107	385.9	0	130 977
+10	1271	96.5	1	11 1260
+11	601	24.1	1	5 596
+12	467	6.0	1	7 460
+13	78	1.5	1	0 78
+14	24	0.4	1	0 24
+15	7	0.1	1	0 7
+19	3	0.0	1	0 0 3
+
+
+=== Adapter Nextera_LMP_Read1_External_Adapter ===
+
+Sequence: GATCGGAAGAGCACACGTCTGAACTCCAGTCAC; Type: regular 3'; Length: 33; Trimmed: 0 times.
+
+=== Adapter Nextera_LMP_Read2_External_Adapter ===
+
+Sequence: GATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT; Type: regular 3'; Length: 32; Trimmed: 4 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-32 bp: 3
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 50.0%
+  G: 50.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+13	3	1.5	1	0 3
+14	1	0.4	1	0 1
+
+
+=== Adapter RNA_Adapter_(RA5)_part_#_15013205 ===
+
+Sequence: GATCGTCGGACTGTAGAACTCTGAAC; Type: regular 3'; Length: 26; Trimmed: 5899 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-26 bp: 2
+
+Bases preceding removed adapters:
+  A: 45.7%
+  C: 4.1%
+  G: 23.3%
+  T: 26.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+6	4546	24699.0	0	4546
+7	603	6174.7	0	603
+8	109	1543.7	0	109
+9	310	385.9	0	8 302
+10	203	96.5	1	1 202
+11	96	24.1	1	0 96
+12	29	6.0	1	0 29
+13	3	1.5	1	0 3
+
+
+=== Adapter RNA_Adapter_(RA3)_part_#_15013207 ===
+
+Sequence: CCTTGGCACCCGAGAATTCCA; Type: regular 3'; Length: 21; Trimmed: 1883837 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-21 bp: 2
+
+Bases preceding removed adapters:
+  A: 19.5%
+  C: 21.4%
+  G: 26.8%
+  T: 32.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1317211	1580734.6	0	1317211
+4	398815	395183.7	0	398815
+5	121536	98795.9	0	121536
+6	23895	24699.0	0	23895
+7	12233	6174.7	0	12233
+8	2541	1543.7	0	2541
+9	2224	385.9	0	556 1668
+10	3237	96.5	1	150 3087
+11	1675	24.1	1	54 1621
+12	371	6.0	1	3 368
+13	48	1.5	1	1 47
+14	46	0.4	1	0 46
+15	5	0.1	1	0 5
+
+
+=== Adapter Stop_Oligo_(STP)_8 ===
+
+Sequence: CCACGGGAACGTGGTGGAATTC; Type: regular 3'; Length: 22; Trimmed: 1656304 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 17.6%
+  C: 24.4%
+  G: 25.0%
+  T: 33.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1374097	1580734.6	0	1374097
+4	237351	395183.7	0	237351
+5	32153	98795.9	0	32153
+6	9503	24699.0	0	9503
+7	870	6174.7	0	870
+8	267	1543.7	0	267
+9	374	385.9	0	59 315
+10	853	96.5	1	9 844
+11	782	24.1	1	3 779
+12	32	6.0	1	0 32
+13	12	1.5	1	0 12
+14	10	0.4	1	3 7
+
+
+=== Adapter RNA_RT_Primer_(RTP)_part_#_15013981 ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGC; Type: regular 3'; Length: 22; Trimmed: 3180991 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-22 bp: 2
+
+Bases preceding removed adapters:
+  A: 17.9%
+  C: 19.4%
+  G: 37.4%
+  T: 25.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1902043	1580734.6	0	1902043
+4	855143	395183.7	0	855143
+5	152171	98795.9	0	152171
+6	60713	24699.0	0	60713
+7	30528	6174.7	0	30528
+8	22939	1543.7	0	22939
+9	19649	385.9	0	18136 1513
+10	18701	96.5	1	15941 2760
+11	17557	24.1	1	16633 924
+12	14973	6.0	1	14610 363
+13	14038	1.5	1	13735 303
+14	12211	0.4	1	11920 291
+15	10906	0.1	1	10593 313
+16	10481	0.0	1	10236 245
+17	8730	0.0	1	8512 218
+18	8178	0.0	1	7971 202 5
+19	7493	0.0	1	7257 230 6
+20	8449	0.0	2	8152 252 45
+21	6043	0.0	2	5898 135 10
+22	34	0.0	2	1 26 7
+23	4	0.0	2	4
+26	2	0.0	2	0 0 2
+27	1	0.0	2	0 0 1
+28	3	0.0	2	0 0 3
+29	1	0.0	2	0 0 1
+
+
+=== Adapter RNA_PCR_Primer_(RP1)_part_#_15013198 ===
+
+Sequence: TCGGACTGTAGAACTCTGAACGTGTAGATCTCGGTGGTCGCCGTATCATT; Type: regular 3'; Length: 50; Trimmed: 2150134 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50 bp: 5
+
+Bases preceding removed adapters:
+  A: 1.9%
+  C: 11.9%
+  G: 79.1%
+  T: 7.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1860868	1580734.6	0	1860868
+4	206591	395183.7	0	206591
+5	77318	98795.9	0	77318
+6	2119	24699.0	0	2119
+7	1291	6174.7	0	1291
+8	160	1543.7	0	160
+9	400	385.9	0	37 363
+10	930	96.5	1	7 923
+11	311	24.1	1	0 311
+12	110	6.0	1	0 110
+13	25	1.5	1	4 21
+14	10	0.4	1	0 10
+15	1	0.1	1	0 1
+
+
+=== Adapter RNA_PCR_Primer_Index_1_(RPI1)_2,9 ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACATCACGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 30934 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-63 bp: 6
+
+Bases preceding removed adapters:
+  A: 6.5%
+  C: 15.1%
+  G: 6.7%
+  T: 71.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+20	16	0.0	2	0 0 16
+21	63	0.0	2	0 59 4
+22	5460	0.0	2	5333 117 10
+23	4692	0.0	2	4529 151 12
+24	3682	0.0	2	3544 127 11
+25	3306	0.0	2	3186 112 8
+26	3063	0.0	2	2929 127 7
+27	2439	0.0	2	2321 112 5 1
+28	2124	0.0	2	2019 94 8 3
+29	1829	0.0	2	1746 78 4 1
+30	1241	0.0	3	1174 55 11 1
+31	1114	0.0	3	1058 54 2
+32	700	0.0	3	669 29 2
+33	551	0.0	3	517 17 15 2
+34	436	0.0	3	1 421 14
+35	4	0.0	3	0 0 4
+36	213	0.0	3	0 0 0 0 213
+38	1	0.0	3	0 0 1
+
+
+=== Adapter RNA_PCR_Primer_Index_2_(RPI2) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCGATGTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 331 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-63 bp: 6
+
+Bases preceding removed adapters:
+  A: 4.5%
+  C: 18.4%
+  G: 8.8%
+  T: 68.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+32	1	0.0	3	0 0 0 1
+33	1	0.0	3	0 0 0 1
+35	329	0.0	3	0 0 0 329
+
+
+=== Adapter RNA_PCR_Primer_Index_3_(RPI3) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACTTAGGCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 30 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-63 bp: 6
+
+Bases preceding removed adapters:
+  A: 13.3%
+  C: 23.3%
+  G: 16.7%
+  T: 46.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+34	14	0.0	3	0 0 0 14
+35	11	0.0	3	1 0 1 9
+36	3	0.0	3	0 0 0 3
+37	1	0.0	3	0 0 0 1
+39	1	0.0	3	0 0 1
+
+
+=== Adapter RNA_PCR_Primer_Index_4_(RPI4) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACTGACCAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 676 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-63 bp: 6
+
+Bases preceding removed adapters:
+  A: 7.5%
+  C: 18.5%
+  G: 7.5%
+  T: 47.2%
+  none/other: 19.2%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+35	7	0.0	3	0 4 2 1
+36	8	0.0	3	0 7 1
+37	153	0.0	3	147 6
+38	124	0.0	3	114 10
+39	82	0.0	3	64 6 4 7 1
+40	52	0.0	4	47 4 0 1
+41	24	0.0	4	23 0 1
+42	20	0.0	4	18 2
+43	12	0.0	4	8 2 2
+44	14	0.0	4	12 1 1
+45	19	0.0	4	12 2 3 2
+46	6	0.0	4	5 0 1
+47	8	0.0	4	6 1 1
+48	4	0.0	4	3 1
+49	9	0.0	4	4 2 3
+50	4	0.0	5	4
+51	130	0.0	5	87 5 11 6 13 8
+
+
+=== Adapter RNA_PCR_Primer_Index_5_(RPI5) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACACAGTGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 1 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-63 bp: 6
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+36	1	0.0	3	0 0 0 0 1
+
+
+=== Adapter RNA_PCR_Primer_Index_6_(RPI6) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACGCCAATATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_7_(RPI7) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCAGATCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 1 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-63 bp: 6
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+37	1	0.0	3	0 0 1
+
+
+=== Adapter RNA_PCR_Primer_Index_8_(RPI8) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACACTTGAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 1 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-63 bp: 6
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+34	1	0.0	3	0 0 1
+
+
+=== Adapter RNA_PCR_Primer_Index_9_(RPI9) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACGATCAGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_10_(RPI10) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACTAGCTTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_11_(RPI11) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACGGCTACATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 1 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-63 bp: 6
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 100.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+45	1	0.0	4	0 0 0 0 1
+
+
+=== Adapter RNA_PCR_Primer_Index_12_(RPI12) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCTTGTAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_13_(RPI13) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACAGTCAAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_14_(RPI14) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACAGTTCCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_15_(RPI15) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACATGTCAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_16_(RPI16) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCCGTCCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_17_(RPI17) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACGTAGAGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_18_(RPI18) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACGTCCGCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_19_(RPI19) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACGTGAAAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_20_(RPI20) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACGTGGCCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 2 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-63 bp: 6
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+39	2	0.0	3	0 0 1 1
+
+
+=== Adapter RNA_PCR_Primer_Index_21_(RPI21) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACGTTTCGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_22_(RPI22) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCGTACGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_23_(RPI23) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACGAGTGGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_24_(RPI24) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACGGTAGCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_25_(RPI25) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACACTGATATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 1 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-63 bp: 6
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+37	1	0.0	3	0 0 0 1
+
+
+=== Adapter RNA_PCR_Primer_Index_26_(RPI26) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACATGAGCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_27_(RPI27) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACATTCCTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_28_(RPI28) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCAAAAGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_29_(RPI29) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCAACTAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_30_(RPI30) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCACCGGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_31_(RPI31) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCACGATATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_32_(RPI32) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCACTCAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_33_(RPI33) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCAGGCGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 1 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-63 bp: 6
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 0.0%
+  none/other: 100.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+51	1	0.0	5	0 0 0 0 1
+
+
+=== Adapter RNA_PCR_Primer_Index_34_(RPI34) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCATGGCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_35_(RPI35) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCATTTTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_36_(RPI36) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCCAACAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_37_(RPI37) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCGGAATATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_38_(RPI38) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCTAGCTATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_39_(RPI39) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCTATACATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_40_(RPI40) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACCTCAGAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_41_(RPI41) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACGACGACATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_42_(RPI42) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACTAATCGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_43_(RPI43) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACTACAGCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 1 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-63 bp: 6
+
+Bases preceding removed adapters:
+  A: 0.0%
+  C: 0.0%
+  G: 0.0%
+  T: 100.0%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+33	1	0.0	3	0 0 0 1
+
+
+=== Adapter RNA_PCR_Primer_Index_44_(RPI44) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACTATAATATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_45_(RPI45) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACTCATTCATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_46_(RPI46) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACTCCCGAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_47_(RPI47) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACTCGAAGATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter RNA_PCR_Primer_Index_48_(RPI48) ===
+
+Sequence: TGGAATTCTCGGGTGCCAAGGAACTCCAGTCACTCGGCAATCTCGTATGCCGTCTTCTGCTTG; Type: regular 3'; Length: 63; Trimmed: 0 times.
+
+=== Adapter PhiX_read1_adapter ===
+
+Sequence: AGATCGGAAGAGCGGTTCAGCAGGAATGCCGAGACCGATCTCGTATGCCGTCTTCTGCTTGAAA; Type: regular 3'; Length: 64; Trimmed: 11 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-19 bp: 1; 20-29 bp: 2; 30-39 bp: 3; 40-49 bp: 4; 50-59 bp: 5; 60-64 bp: 6
+
+Bases preceding removed adapters:
+  A: 9.1%
+  C: 9.1%
+  G: 36.4%
+  T: 9.1%
+  none/other: 36.4%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+13	3	1.5	1	0 3
+14	2	0.4	1	1 1
+19	1	0.0	1	1
+24	1	0.0	2	1
+51	4	0.0	5	4
+
+
+=== Adapter PhiX_read2_adapter ===
+
+Sequence: AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTAGATCTCGGTGGTCGCCGTATCATTAAAAAA; Type: regular 3'; Length: 64; Trimmed: 0 times.
+
+=== Adapter Bisulfite_R1 ===
+
+Sequence: AGATCGGAAGAGCACACGTCTGAAC; Type: regular 3'; Length: 25; Trimmed: 0 times.
+
+=== Adapter Bisulfite_R2 ===
+
+Sequence: AGATCGGAAGAGCGTCGTGTAGGGA; Type: regular 3'; Length: 25; Trimmed: 0 times.
+Adaptor trimming is done!

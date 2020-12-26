@@ -1,0 +1,293 @@
+source /etc/profile.d/modules.sh
+perl: warning: Setting locale failed.
+perl: warning: Please check that your locale settings:
+	LANGUAGE = (unset),
+	LC_ALL = (unset),
+	LC_CTYPE = "UTF-8",
+	LANG = "en_US.UTF-8"
+    are supported and installed on your system.
+perl: warning: Falling back to a fallback locale ("en_US.UTF-8").
+Warning: skipping read 'SRR1916554.152031 HWI-D00645:51:C66PTANXX:6:1101:18416:16736 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.152031 HWI-D00645:51:C66PTANXX:6:1101:18416:16736 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.329839 HWI-D00645:51:C66PTANXX:6:1101:18257:33810 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.329839 HWI-D00645:51:C66PTANXX:6:1101:18257:33810 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.427832 HWI-D00645:51:C66PTANXX:6:1101:2978:43620 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.427832 HWI-D00645:51:C66PTANXX:6:1101:2978:43620 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.960198 HWI-D00645:51:C66PTANXX:6:1101:20288:95377 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.960198 HWI-D00645:51:C66PTANXX:6:1101:20288:95377 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.1169166 HWI-D00645:51:C66PTANXX:6:1102:14331:16973 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.1169166 HWI-D00645:51:C66PTANXX:6:1102:14331:16973 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.3306043 HWI-D00645:51:C66PTANXX:6:1104:3237:27051 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.3306043 HWI-D00645:51:C66PTANXX:6:1104:3237:27051 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.4143353 HWI-D00645:51:C66PTANXX:6:1105:11988:8628 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.4143353 HWI-D00645:51:C66PTANXX:6:1105:11988:8628 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.5267672 HWI-D00645:51:C66PTANXX:6:1106:20895:17129 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.5267672 HWI-D00645:51:C66PTANXX:6:1106:20895:17129 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.5903542 HWI-D00645:51:C66PTANXX:6:1106:16794:77785 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.5903542 HWI-D00645:51:C66PTANXX:6:1106:16794:77785 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.5967689 HWI-D00645:51:C66PTANXX:6:1106:3417:84000 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.5967689 HWI-D00645:51:C66PTANXX:6:1106:3417:84000 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.6155043 HWI-D00645:51:C66PTANXX:6:1107:11938:2523 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.6155043 HWI-D00645:51:C66PTANXX:6:1107:11938:2523 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.6174756 HWI-D00645:51:C66PTANXX:6:1107:21299:4361 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.6174756 HWI-D00645:51:C66PTANXX:6:1107:21299:4361 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.6604396 HWI-D00645:51:C66PTANXX:6:1107:12189:45019 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.6604396 HWI-D00645:51:C66PTANXX:6:1107:12189:45019 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.6821278 HWI-D00645:51:C66PTANXX:6:1107:9565:65731 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.6821278 HWI-D00645:51:C66PTANXX:6:1107:9565:65731 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.7194517 HWI-D00645:51:C66PTANXX:6:1107:21045:100740 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.7194517 HWI-D00645:51:C66PTANXX:6:1107:21045:100740 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.7880481 HWI-D00645:51:C66PTANXX:6:1108:4187:66108 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.7880481 HWI-D00645:51:C66PTANXX:6:1108:4187:66108 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.8136556 HWI-D00645:51:C66PTANXX:6:1108:3357:90145 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.8136556 HWI-D00645:51:C66PTANXX:6:1108:3357:90145 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.8660772 HWI-D00645:51:C66PTANXX:6:1109:17976:39516 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.8660772 HWI-D00645:51:C66PTANXX:6:1109:17976:39516 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.9907959 HWI-D00645:51:C66PTANXX:6:1110:17360:55797 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.9907959 HWI-D00645:51:C66PTANXX:6:1110:17360:55797 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.9986641 HWI-D00645:51:C66PTANXX:6:1110:20644:63176 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.9986641 HWI-D00645:51:C66PTANXX:6:1110:20644:63176 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.10332636 HWI-D00645:51:C66PTANXX:6:1110:1493:95163 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.10332636 HWI-D00645:51:C66PTANXX:6:1110:1493:95163 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.10734702 HWI-D00645:51:C66PTANXX:6:1111:12538:32671 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.10734702 HWI-D00645:51:C66PTANXX:6:1111:12538:32671 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.10747395 HWI-D00645:51:C66PTANXX:6:1111:4432:33780 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.10747395 HWI-D00645:51:C66PTANXX:6:1111:4432:33780 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.10888821 HWI-D00645:51:C66PTANXX:6:1111:16029:46587 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.10888821 HWI-D00645:51:C66PTANXX:6:1111:16029:46587 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.11629039 HWI-D00645:51:C66PTANXX:6:1112:9535:15052 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.11629039 HWI-D00645:51:C66PTANXX:6:1112:9535:15052 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.12970231 HWI-D00645:51:C66PTANXX:6:1113:13752:36849 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.12970231 HWI-D00645:51:C66PTANXX:6:1113:13752:36849 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.14796386 HWI-D00645:51:C66PTANXX:6:1114:8460:100642 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.14796386 HWI-D00645:51:C66PTANXX:6:1114:8460:100642 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.16998966 HWI-D00645:51:C66PTANXX:6:1116:15643:96382 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.16998966 HWI-D00645:51:C66PTANXX:6:1116:15643:96382 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.17108335 HWI-D00645:51:C66PTANXX:6:1201:4926:7492 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.17108335 HWI-D00645:51:C66PTANXX:6:1201:4926:7492 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.18042518 HWI-D00645:51:C66PTANXX:6:1201:3393:98571 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.18042518 HWI-D00645:51:C66PTANXX:6:1201:3393:98571 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.18534047 HWI-D00645:51:C66PTANXX:6:1202:11748:47791 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.18534047 HWI-D00645:51:C66PTANXX:6:1202:11748:47791 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.19542354 HWI-D00645:51:C66PTANXX:6:1203:4976:47517 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.19542354 HWI-D00645:51:C66PTANXX:6:1203:4976:47517 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.19997428 HWI-D00645:51:C66PTANXX:6:1203:16094:91834 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.19997428 HWI-D00645:51:C66PTANXX:6:1203:16094:91834 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.21107740 HWI-D00645:51:C66PTANXX:6:1204:15927:100488 length=51' because length (1) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.21107740 HWI-D00645:51:C66PTANXX:6:1204:15927:100488 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.22438344 HWI-D00645:51:C66PTANXX:6:1206:14052:29916 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.22438344 HWI-D00645:51:C66PTANXX:6:1206:14052:29916 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.22767576 HWI-D00645:51:C66PTANXX:6:1206:13501:61443 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.22767576 HWI-D00645:51:C66PTANXX:6:1206:13501:61443 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.23482714 HWI-D00645:51:C66PTANXX:6:1207:19081:30110 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.23482714 HWI-D00645:51:C66PTANXX:6:1207:19081:30110 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.23561551 HWI-D00645:51:C66PTANXX:6:1207:14559:37556 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.23561551 HWI-D00645:51:C66PTANXX:6:1207:14559:37556 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.23718500 HWI-D00645:51:C66PTANXX:6:1207:19624:52317 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.23718500 HWI-D00645:51:C66PTANXX:6:1207:19624:52317 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.24418158 HWI-D00645:51:C66PTANXX:6:1208:17259:19001 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.24418158 HWI-D00645:51:C66PTANXX:6:1208:17259:19001 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.24566717 HWI-D00645:51:C66PTANXX:6:1208:12536:33170 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.24566717 HWI-D00645:51:C66PTANXX:6:1208:12536:33170 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.25135327 HWI-D00645:51:C66PTANXX:6:1208:17943:86142 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.25135327 HWI-D00645:51:C66PTANXX:6:1208:17943:86142 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.25375344 HWI-D00645:51:C66PTANXX:6:1209:13621:9431 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.25375344 HWI-D00645:51:C66PTANXX:6:1209:13621:9431 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.26658470 HWI-D00645:51:C66PTANXX:6:1210:3653:28816 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.26658470 HWI-D00645:51:C66PTANXX:6:1210:3653:28816 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.27492658 HWI-D00645:51:C66PTANXX:6:1211:21048:5432 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.27492658 HWI-D00645:51:C66PTANXX:6:1211:21048:5432 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.28730821 HWI-D00645:51:C66PTANXX:6:1212:8074:17000 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.28730821 HWI-D00645:51:C66PTANXX:6:1212:8074:17000 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.29693477 HWI-D00645:51:C66PTANXX:6:1213:18036:2687 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.29693477 HWI-D00645:51:C66PTANXX:6:1213:18036:2687 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.29941255 HWI-D00645:51:C66PTANXX:6:1213:8856:24496 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.29941255 HWI-D00645:51:C66PTANXX:6:1213:8856:24496 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.30014415 HWI-D00645:51:C66PTANXX:6:1213:16596:30588 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.30014415 HWI-D00645:51:C66PTANXX:6:1213:16596:30588 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.30108142 HWI-D00645:51:C66PTANXX:6:1213:11120:38793 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.30108142 HWI-D00645:51:C66PTANXX:6:1213:11120:38793 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.30141280 HWI-D00645:51:C66PTANXX:6:1213:3253:41924 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.30141280 HWI-D00645:51:C66PTANXX:6:1213:3253:41924 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.30387993 HWI-D00645:51:C66PTANXX:6:1213:2413:63294 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.30387993 HWI-D00645:51:C66PTANXX:6:1213:2413:63294 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.31003810 HWI-D00645:51:C66PTANXX:6:1214:20272:17139 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.31003810 HWI-D00645:51:C66PTANXX:6:1214:20272:17139 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.32195928 HWI-D00645:51:C66PTANXX:6:1215:8413:19620 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.32195928 HWI-D00645:51:C66PTANXX:6:1215:8413:19620 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.34990111 HWI-D00645:51:C66PTANXX:6:1301:7142:67178 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.34990111 HWI-D00645:51:C66PTANXX:6:1301:7142:67178 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.36677221 HWI-D00645:51:C66PTANXX:6:1303:16894:39037 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.36677221 HWI-D00645:51:C66PTANXX:6:1303:16894:39037 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.36821217 HWI-D00645:51:C66PTANXX:6:1303:11379:53623 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.36821217 HWI-D00645:51:C66PTANXX:6:1303:11379:53623 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.37867061 HWI-D00645:51:C66PTANXX:6:1304:16755:58395 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.37867061 HWI-D00645:51:C66PTANXX:6:1304:16755:58395 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.38312502 HWI-D00645:51:C66PTANXX:6:1305:17543:3425 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.38312502 HWI-D00645:51:C66PTANXX:6:1305:17543:3425 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.38548729 HWI-D00645:51:C66PTANXX:6:1305:10477:26575 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.38548729 HWI-D00645:51:C66PTANXX:6:1305:10477:26575 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.38625727 HWI-D00645:51:C66PTANXX:6:1305:17226:34046 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.38625727 HWI-D00645:51:C66PTANXX:6:1305:17226:34046 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.38630051 HWI-D00645:51:C66PTANXX:6:1305:11736:34607 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.38630051 HWI-D00645:51:C66PTANXX:6:1305:11736:34607 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.39206830 HWI-D00645:51:C66PTANXX:6:1305:7242:90953 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.39206830 HWI-D00645:51:C66PTANXX:6:1305:7242:90953 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.39650576 HWI-D00645:51:C66PTANXX:6:1306:7037:34868 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.39650576 HWI-D00645:51:C66PTANXX:6:1306:7037:34868 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.41934682 HWI-D00645:51:C66PTANXX:6:1308:15598:54518 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.41934682 HWI-D00645:51:C66PTANXX:6:1308:15598:54518 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.44068902 HWI-D00645:51:C66PTANXX:6:1310:8224:54587 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.44068902 HWI-D00645:51:C66PTANXX:6:1310:8224:54587 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.44175968 HWI-D00645:51:C66PTANXX:6:1310:8056:64365 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.44175968 HWI-D00645:51:C66PTANXX:6:1310:8056:64365 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.44362645 HWI-D00645:51:C66PTANXX:6:1310:11349:81293 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.44362645 HWI-D00645:51:C66PTANXX:6:1310:11349:81293 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.46278122 HWI-D00645:51:C66PTANXX:6:1312:13956:55100 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.46278122 HWI-D00645:51:C66PTANXX:6:1312:13956:55100 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.46371960 HWI-D00645:51:C66PTANXX:6:1312:14278:63353 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.46371960 HWI-D00645:51:C66PTANXX:6:1312:14278:63353 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.46567216 HWI-D00645:51:C66PTANXX:6:1312:12017:80653 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.46567216 HWI-D00645:51:C66PTANXX:6:1312:12017:80653 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.47816911 HWI-D00645:51:C66PTANXX:6:1313:10823:90652 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.47816911 HWI-D00645:51:C66PTANXX:6:1313:10823:90652 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.48139606 HWI-D00645:51:C66PTANXX:6:1314:10078:19386 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.48139606 HWI-D00645:51:C66PTANXX:6:1314:10078:19386 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.52469867 HWI-D00645:51:C66PTANXX:6:2102:11565:5912 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.52469867 HWI-D00645:51:C66PTANXX:6:2102:11565:5912 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.52948210 HWI-D00645:51:C66PTANXX:6:2102:8497:55009 length=51' because length (1) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.52948210 HWI-D00645:51:C66PTANXX:6:2102:8497:55009 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.52972182 HWI-D00645:51:C66PTANXX:6:2102:2627:57651 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.52972182 HWI-D00645:51:C66PTANXX:6:2102:2627:57651 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.53164483 HWI-D00645:51:C66PTANXX:6:2102:16712:76778 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.53164483 HWI-D00645:51:C66PTANXX:6:2102:16712:76778 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.54400872 HWI-D00645:51:C66PTANXX:6:2104:11677:3222 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.54400872 HWI-D00645:51:C66PTANXX:6:2104:11677:3222 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.54953532 HWI-D00645:51:C66PTANXX:6:2104:12087:58675 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.54953532 HWI-D00645:51:C66PTANXX:6:2104:12087:58675 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.55884532 HWI-D00645:51:C66PTANXX:6:2105:19235:52285 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.55884532 HWI-D00645:51:C66PTANXX:6:2105:19235:52285 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.57646561 HWI-D00645:51:C66PTANXX:6:2107:4396:28725 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.57646561 HWI-D00645:51:C66PTANXX:6:2107:4396:28725 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.58024487 HWI-D00645:51:C66PTANXX:6:2107:9583:65547 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.58024487 HWI-D00645:51:C66PTANXX:6:2107:9583:65547 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.58110971 HWI-D00645:51:C66PTANXX:6:2107:9664:74214 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.58110971 HWI-D00645:51:C66PTANXX:6:2107:9664:74214 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.58704646 HWI-D00645:51:C66PTANXX:6:2108:8939:32946 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.58704646 HWI-D00645:51:C66PTANXX:6:2108:8939:32946 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.59144082 HWI-D00645:51:C66PTANXX:6:2108:8738:75547 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.59144082 HWI-D00645:51:C66PTANXX:6:2108:8738:75547 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.59607151 HWI-D00645:51:C66PTANXX:6:2109:11150:21067 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.59607151 HWI-D00645:51:C66PTANXX:6:2109:11150:21067 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.59938131 HWI-D00645:51:C66PTANXX:6:2109:5284:53066 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.59938131 HWI-D00645:51:C66PTANXX:6:2109:5284:53066 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.61145778 HWI-D00645:51:C66PTANXX:6:2110:15449:69419 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.61145778 HWI-D00645:51:C66PTANXX:6:2110:15449:69419 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.63330171 HWI-D00645:51:C66PTANXX:6:2112:19302:75841 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.63330171 HWI-D00645:51:C66PTANXX:6:2112:19302:75841 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.64299096 HWI-D00645:51:C66PTANXX:6:2113:18346:65813 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.64299096 HWI-D00645:51:C66PTANXX:6:2113:18346:65813 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.64914594 HWI-D00645:51:C66PTANXX:6:2114:9838:22843 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.64914594 HWI-D00645:51:C66PTANXX:6:2114:9838:22843 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.65545309 HWI-D00645:51:C66PTANXX:6:2114:18682:79799 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.65545309 HWI-D00645:51:C66PTANXX:6:2114:18682:79799 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.65654393 HWI-D00645:51:C66PTANXX:6:2114:5539:89917 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.65654393 HWI-D00645:51:C66PTANXX:6:2114:5539:89917 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.65962771 HWI-D00645:51:C66PTANXX:6:2115:19764:18173 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.65962771 HWI-D00645:51:C66PTANXX:6:2115:19764:18173 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.69201908 HWI-D00645:51:C66PTANXX:6:2202:14726:23807 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.69201908 HWI-D00645:51:C66PTANXX:6:2202:14726:23807 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.69744451 HWI-D00645:51:C66PTANXX:6:2202:7994:79440 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.69744451 HWI-D00645:51:C66PTANXX:6:2202:7994:79440 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.70245548 HWI-D00645:51:C66PTANXX:6:2203:12878:30932 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.70245548 HWI-D00645:51:C66PTANXX:6:2203:12878:30932 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.70651024 HWI-D00645:51:C66PTANXX:6:2203:21357:71948 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.70651024 HWI-D00645:51:C66PTANXX:6:2203:21357:71948 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.70765414 HWI-D00645:51:C66PTANXX:6:2203:4496:83668 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.70765414 HWI-D00645:51:C66PTANXX:6:2203:4496:83668 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.71001634 HWI-D00645:51:C66PTANXX:6:2204:11168:8117 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.71001634 HWI-D00645:51:C66PTANXX:6:2204:11168:8117 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.71024908 HWI-D00645:51:C66PTANXX:6:2204:19583:10325 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.71024908 HWI-D00645:51:C66PTANXX:6:2204:19583:10325 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.71641359 HWI-D00645:51:C66PTANXX:6:2204:3054:72576 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.71641359 HWI-D00645:51:C66PTANXX:6:2204:3054:72576 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.73792278 HWI-D00645:51:C66PTANXX:6:2206:8748:88264 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.73792278 HWI-D00645:51:C66PTANXX:6:2206:8748:88264 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.74022340 HWI-D00645:51:C66PTANXX:6:2207:18994:11561 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.74022340 HWI-D00645:51:C66PTANXX:6:2207:18994:11561 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.76673647 HWI-D00645:51:C66PTANXX:6:2209:7715:70484 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.76673647 HWI-D00645:51:C66PTANXX:6:2209:7715:70484 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.76842948 HWI-D00645:51:C66PTANXX:6:2209:12857:86311 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.76842948 HWI-D00645:51:C66PTANXX:6:2209:12857:86311 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.77030181 HWI-D00645:51:C66PTANXX:6:2210:5877:5115 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.77030181 HWI-D00645:51:C66PTANXX:6:2210:5877:5115 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.77204184 HWI-D00645:51:C66PTANXX:6:2210:4748:21643 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.77204184 HWI-D00645:51:C66PTANXX:6:2210:4748:21643 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.77417316 HWI-D00645:51:C66PTANXX:6:2210:13695:41543 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.77417316 HWI-D00645:51:C66PTANXX:6:2210:13695:41543 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.77841333 HWI-D00645:51:C66PTANXX:6:2210:18744:81320 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.77841333 HWI-D00645:51:C66PTANXX:6:2210:18744:81320 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.78364340 HWI-D00645:51:C66PTANXX:6:2211:8860:31055 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.78364340 HWI-D00645:51:C66PTANXX:6:2211:8860:31055 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.78735590 HWI-D00645:51:C66PTANXX:6:2211:8988:65629 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.78735590 HWI-D00645:51:C66PTANXX:6:2211:8988:65629 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.78965795 HWI-D00645:51:C66PTANXX:6:2211:3759:87133 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.78965795 HWI-D00645:51:C66PTANXX:6:2211:3759:87133 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.81044500 HWI-D00645:51:C66PTANXX:6:2213:19864:77551 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.81044500 HWI-D00645:51:C66PTANXX:6:2213:19864:77551 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.81967140 HWI-D00645:51:C66PTANXX:6:2214:18348:60707 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.81967140 HWI-D00645:51:C66PTANXX:6:2214:18348:60707 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.83451622 HWI-D00645:51:C66PTANXX:6:2215:18884:91779 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.83451622 HWI-D00645:51:C66PTANXX:6:2215:18884:91779 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.83639452 HWI-D00645:51:C66PTANXX:6:2216:9956:9177 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.83639452 HWI-D00645:51:C66PTANXX:6:2216:9956:9177 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.83967703 HWI-D00645:51:C66PTANXX:6:2216:11703:37690 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.83967703 HWI-D00645:51:C66PTANXX:6:2216:11703:37690 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.85605468 HWI-D00645:51:C66PTANXX:6:2301:6705:94528 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.85605468 HWI-D00645:51:C66PTANXX:6:2301:6705:94528 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.85619544 HWI-D00645:51:C66PTANXX:6:2301:1761:96014 length=51' because length (1) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.85619544 HWI-D00645:51:C66PTANXX:6:2301:1761:96014 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.85679734 HWI-D00645:51:C66PTANXX:6:2302:5820:3094 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.85679734 HWI-D00645:51:C66PTANXX:6:2302:5820:3094 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.86150244 HWI-D00645:51:C66PTANXX:6:2302:6035:52307 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.86150244 HWI-D00645:51:C66PTANXX:6:2302:6035:52307 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.86266657 HWI-D00645:51:C66PTANXX:6:2302:10588:64257 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.86266657 HWI-D00645:51:C66PTANXX:6:2302:10588:64257 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.86858068 HWI-D00645:51:C66PTANXX:6:2303:9714:26020 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.86858068 HWI-D00645:51:C66PTANXX:6:2303:9714:26020 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.86864155 HWI-D00645:51:C66PTANXX:6:2303:19334:26521 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.86864155 HWI-D00645:51:C66PTANXX:6:2303:19334:26521 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.87504892 HWI-D00645:51:C66PTANXX:6:2303:5109:92714 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.87504892 HWI-D00645:51:C66PTANXX:6:2303:5109:92714 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.88021054 HWI-D00645:51:C66PTANXX:6:2304:20836:46159 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.88021054 HWI-D00645:51:C66PTANXX:6:2304:20836:46159 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.88906677 HWI-D00645:51:C66PTANXX:6:2305:11826:37004 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.88906677 HWI-D00645:51:C66PTANXX:6:2305:11826:37004 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.89324458 HWI-D00645:51:C66PTANXX:6:2305:1229:79695 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.89324458 HWI-D00645:51:C66PTANXX:6:2305:1229:79695 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.89684010 HWI-D00645:51:C66PTANXX:6:2306:5108:16672 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.89684010 HWI-D00645:51:C66PTANXX:6:2306:5108:16672 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.90543782 HWI-D00645:51:C66PTANXX:6:2307:20452:3605 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.90543782 HWI-D00645:51:C66PTANXX:6:2307:20452:3605 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.91789736 HWI-D00645:51:C66PTANXX:6:2308:3923:28229 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.91789736 HWI-D00645:51:C66PTANXX:6:2308:3923:28229 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.95264267 HWI-D00645:51:C66PTANXX:6:2311:15537:64906 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.95264267 HWI-D00645:51:C66PTANXX:6:2311:15537:64906 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.95316320 HWI-D00645:51:C66PTANXX:6:2311:6814:69938 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.95316320 HWI-D00645:51:C66PTANXX:6:2311:6814:69938 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.96469780 HWI-D00645:51:C66PTANXX:6:2312:2302:78114 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.96469780 HWI-D00645:51:C66PTANXX:6:2312:2302:78114 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.98550179 HWI-D00645:51:C66PTANXX:6:2314:10741:68502 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.98550179 HWI-D00645:51:C66PTANXX:6:2314:10741:68502 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.99284268 HWI-D00645:51:C66PTANXX:6:2315:5800:34844 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.99284268 HWI-D00645:51:C66PTANXX:6:2315:5800:34844 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.100067508 HWI-D00645:51:C66PTANXX:6:2316:8529:4751 length=51' because length (0) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.100067508 HWI-D00645:51:C66PTANXX:6:2316:8529:4751 length=51' because it was < 2 characters long
+Warning: skipping read 'SRR1916554.100712289 HWI-D00645:51:C66PTANXX:6:2316:7260:61546 length=51' because length (1) <= # seed mismatches (0)
+Warning: skipping read 'SRR1916554.100712289 HWI-D00645:51:C66PTANXX:6:2316:7260:61546 length=51' because it was < 2 characters long
+101167017 reads; of these:
+  101167017 (100.00%) were unpaired; of these:
+    2099282 (2.08%) aligned 0 times
+    34741348 (34.34%) aligned exactly 1 time
+    64326387 (63.58%) aligned >1 times
+97.92% overall alignment rate
